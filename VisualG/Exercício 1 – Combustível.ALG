@@ -1,36 +1,36 @@
-Algoritmo "Exercício 1 – Combustível"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "ExercÃ­cio 1 â€“ CombustÃ­vel"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 17/03/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
  litros, result: real
  cod: caracter
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
  escreva ("Digite a quantidade de litros:")
  leia (litros)
- escreva ("Digite A para álcool ou G para gasolina:")
+ escreva ("Digite A para Ã¡lcool ou G para gasolina:")
  leia (cod)
   se (cod = "A") entao
    se (litros <= 20) entao
-    result:= litros * (4,30 - (4,30 * 3/100))
-     escreva ("O valor a pagar é de: result")
+    result:= 20 * (4.30 - (4.30 * 3/100))
+     escreva ("O valor a pagar Ã© de", result)
    senao
-     result:= litros * (4,30 - (4,30 * 5/100))
-      escreva ("O valor a pagar é de: result")
+     result:= 20 * (4.30 - (4.30 * 5/100))
+      escreva ("O valor a pagar Ã© de", result)
    fimse
   senao
    se (cod = "G") entao
     se(litros <=20) entao
-     result:= litros * (5,50 - (5,50 * 4/100))
-      escreva ("O valor a pagar é de: result")
+     result:= 20 * (5.50 - (5.50 * 4/100))
+      escreva ("O valor a pagar Ã© de", result)
     senao
-      result:= litros * (5,50 - (5,50 * 6/100))
-       escreva ("O valor a pagar é de: result")
+      result:= 20 * (5.50 - (5.50 * 6/100))
+       escreva ("O valor a pagar Ã© de", result)
     fimse
    fimse
   fimse
